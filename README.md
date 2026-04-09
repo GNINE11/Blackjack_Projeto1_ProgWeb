@@ -28,7 +28,7 @@ Força um jogador alvo a parar no próximo turno.
 ### Future Sight
 
 ![Future Sight](assets/images/power-cards/Future_Sight.jpg)
-Mostra as próximas 3 cartas do baralho.
+Mostra o valor das próximas 3 cartas do baralho.
 
 ### Burn Card
 
@@ -48,7 +48,6 @@ Se estiver entre 18 e 20, ganha +1 ponto.
 * contador de vitórias
 * poderes aleatórios
 * destaque do jogador da vez
-* reset automático ao atingir o número de vitórias
 
 ---
 
