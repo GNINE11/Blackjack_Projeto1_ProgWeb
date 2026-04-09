@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header">
+        BLACKJACK
+    </header>
+
+    <main>
+        <div class="deck-wrapper">
+            <div class="deck-container">
+                <div class="label-container">
+                    <span class="label-deck"> BARALHO </span>
+                </div>
+                <img src="assets/images/playingcards/Back-B.png" alt="deck" class="deck">
+                <span class="remaining-cards"> 32 cartas restantes </span>
+            </div>
+        </div>
+
+        <div class="players-cards">
+            <div class="wrapper-player-cards">
+                <span class="player-name">PLAYER 1</span>
+                <span class="wins-label">4 VITÓRIAS</span>
+                    <div class="container-player-cards">
+                        <img src="assets/images/playingcards/C-10.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/D-3.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/S-5.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/H-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-10.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/D-3.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/S-5.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/H-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-2.png" alt="cards" class="cards">
+                    </div>
+                <span class="value-count">21</span>
+                <span class="value-label">VALOR</span>
+            </div>
+
+            <div class="wrapper-player-cards">
+                <span class="player-name">PLAYER 1</span>
+                <span class="wins-label">4 VITÓRIAS</span>
+                    <div class="container-player-cards">
+                        <img src="assets/images/playingcards/C-10.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/D-3.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/S-5.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/H-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-10.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/D-3.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/S-5.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/H-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-2.png" alt="cards" class="cards">
+                        <img src="assets/images/playingcards/C-2.png" alt="cards" class="cards">
+                    </div>
+                <span class="value-count">21</span>
+                <span class="value-label">VALOR</span>
+            </div>
+
+            
+        </div>
+
+        <div class="players-power-cards">
+            <div class="wrapper-players-power-cards">
+                <span class="remaining-power-cards"> CARTAS DE PODERES DISPONÍVEIS </span>
+                <div class="container-players-power-cards">
+                    <img src="assets/images/power-cards/Freeze.jpg" alt="power-cards" class="power-cards">
+                    <img src="assets/images/power-cards/Future_Sight.jpg" alt="power-cards" class="power-cards">
+                    <img src="assets/images/power-cards/Last_Stand.jpg" alt="power-cards" class="power-cards">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-game-buttons">
+            <button class="buttons">PARAR</button>
+            <button class="buttons">COMPRAR</button>
+            <button class="buttons">USAR PODER</button>
+        </div>
+    </main>
     
+    <script src="script.js"></script>
 </body>
 </html>

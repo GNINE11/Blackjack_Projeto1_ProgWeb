@@ -1,0 +1,189 @@
+:root {
+  --primary-color: #61FF97;
+  --secondary-color: #fffefe;
+  --opacity-secondary-color: 70%;
+  --tertiary-color: #FFD700;
+}
+
+body {
+    background-color: #01170E;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #001209;
+    height: 10vh;
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 40px;
+    /* border: solid 2px red; */
+}
+
+.deck-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    /* border: solid 2px yellow */
+}
+
+.deck-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.label-container {
+    display: flex;
+    padding-inline: 15px;
+    padding-block: 2px;
+    border-radius: 999px;
+    background-color: var(--tertiary-color);
+    margin-bottom: 10px;
+}
+
+.label-deck {
+    color: #221B00;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.deck {
+    width: 80px;
+    height: auto;
+    transform: rotate(90deg);
+}
+
+.remaining-cards {
+    margin-top: px;
+    color: #fffefe;
+    opacity: 70%;
+    font-size: 12px;
+}
+
+.players-cards {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    /* border: solid 2px orange; */
+    gap: 55px;
+}
+
+.wrapper-player-cards {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px var(--primary-color);
+    border-radius: 20px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: #021f13;
+}
+
+.container-player-cards {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 80px;
+    height: auto;
+}
+
+.player-name {
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.wins-label {
+    color: var(--secondary-color);
+    opacity: var(--opacity-secondary-color);
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;   
+}
+
+.value-count {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 900;   
+}
+
+.value-label {
+    color: var(--secondary-color);
+    opacity: var(--opacity-secondary-color);
+    font-size: 10px;
+    font-weight: 600;  
+}
+
+.players-power-cards {
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-players-power-cards{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-players-power-cards{
+    display: flex;
+    gap: 30px
+}
+
+.remaining-power-cards {
+    color: var(--primary-color);
+}
+
+.power-cards {
+    width: 160px;
+    height: 117px;
+    border-radius: 8px;
+    border: solid 2px black;
+}
+
+.container-game-buttons {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buttons {
+    width: 160px;
+    height: 50px;
+    border-radius: 999px;
+    background-color: #044b2d;
+    border: 0px;
+    color: whitesmoke;
+}
+
+.buttons:hover {
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #01170E;
+}
+
